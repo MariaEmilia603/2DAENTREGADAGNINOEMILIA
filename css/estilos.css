@@ -1,0 +1,56 @@
+ @import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+body{
+	font-family: 'Koulen', cursive;
+	background: #F7F9F9;
+}
+
+.cambio1{
+	background:#F7F9F9;
+}
+	@media(max-width: 768px){
+		.cambio1{
+			background:#B2BABB;
+
+		}
+
+	}
+
+}
+
+
+ a:hover{
+		background: #D6DBDF;
+}
+
+/*HEADER 1*/
+
+#header{
+  background: #D6DBDF;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+}
+
+/*NAVBAR*/
+
+#navBar{
+padding: 40px;
+}
+
+/*LISTA DE PRODUCTOS*/
+
+.container{
+	padding: 20px;
+	margin: 20px;
+
+}
+.listaProd{
+
+		text-align: center;
+		font-size:50px;
+		color:#34495E;
+}
+
+
